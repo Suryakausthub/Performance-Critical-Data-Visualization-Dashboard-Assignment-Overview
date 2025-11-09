@@ -1,4 +1,3 @@
-﻿# -Performance-Critical-Data-Visualization-Dashboard-Assignment-Overview
 
 # ⚡ Performance-Critical Real-Time Data Visualization Dashboard
 
@@ -70,15 +69,15 @@ performance-dashboard/
 │
 └── public/
     └── workers/dataWorker.ts   ← Generates high-volume data
-
+```
 # 🚀 Getting Started
 
 ## ✅ Install dependencies
-```bash
+```
 npm install
 npm run dev
 http://localhost:3000
-
+```
 
 ⚙️ How It Works
 Module	Purpose
@@ -87,53 +86,44 @@ useDataStream.ts	Receives streaming data and updates charts
 Canvas Rendering	Keeps FPS high and avoids React reflows
 Virtualized Table	Renders only visible rows for huge datasets
 Rule Engine	Triggers alerts using dynamic thresholds
-
 Even with massive datasets, the UI stays smooth & responsive.
 
-🧩 Core Components
+## 🧩 Core Components
 ✅ Charts
 
 LineChart.tsx
-
 BarChart.tsx
-
 ScatterPlot.tsx
-
 Heatmap.tsx
 
-✅ Monitoring
+## ✅ Monitoring
 
 AlertCenter.tsx
-
 PerformanceMonitor.tsx
 
-✅ Controls
+## ✅ Controls
 
 FilterPanel.tsx
-
 TimeRangeSelector.tsx
-
 RuleManager.tsx
 
 
-📦 Built for Performance
+## 📦 Built for Performance
 
 ✅ Uses Web Workers to avoid blocking UI
 ✅ Canvas rendering for large datasets
 ✅ Batching & memoized rendering
 ✅ Runs smoothly even on low-end systems
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
 WebSocket live streaming instead of mock data
-
 Export charts & dashboards as PNG/PDF
-
 User-saved layouts and widgets
-
 Cloud logging support
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 Suryakausthub
 High-Performance Systems • Web Engineering • Data Visualization
+
